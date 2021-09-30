@@ -9,7 +9,7 @@ def get_player_values():
     playerTwoName = input("Player two, enter your name: ")
     playerTwoLetter = "O"
 
-    return playerOneLetter, playerTwoLetter, playerOneName, playerTwoName
+    return playerOneLetter, playerTwoLetter, playerOneName, playerTwoName # It is possible to return multiple values from a function if they are on same line
 
 def gameInfo():
     print(f'''\n{playerOneName} will be "{playerOneLetter}" and {playerTwoName} will be "{playerTwoLetter}"''' )
